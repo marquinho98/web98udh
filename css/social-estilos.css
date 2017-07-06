@@ -1,0 +1,88 @@
+.social{
+    display: inline-block;
+    position: fixed;
+    right:0;
+    top: 220px;
+    z-index: 2000;
+    width: 40px;
+}
+.social img{
+    width: 100%;
+}
+.facebook:hover{background: rgba(40,53,147,.9);
+    border-radius: 5px;width:60px;float: right}
+.whatsapp:hover{background: rgba(0,202,116,.9);
+    border-radius: 10px;width:60px;float:right}
+.snapchat:hover{background: rgba(225,252,0,.9);
+    border-radius: 10px;width:60px;float:right}
+.instagram:hover{background: rgba(255,255,255,.9);
+    border-radius: 10px;width:60px;float:right}
+.youtube:hover{background: rgba(207,34,39,.9);
+    border-radius: 10px;width:60px;float:right}
+.twitter:hover{background: rgba(29,161,242,.9;);
+    border-radius: 10px;width:60px;float:right}
+.googleplus:hover{background: rgba(208,83,68,.9);
+    border-radius: 10px;width:60px;float:right}
+.publicidad img {
+    width: 100%;
+    height: 10%;
+    border-radius:0px;
+}
+.publicidad{
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.logo ul{
+	padding: 0;
+	display: flex;
+	width: 400%;/*numero de imgs*/
+	animation:cambio 20s infinite alternate;
+}
+.logo li{
+	width: 100%;
+	list-style: none;
+}
+.logo img{
+	width: 100%;
+    border-radius: 0px;
+}
+@keyframes cambio {
+
+	0%{margin-left: 0%;}
+	20%{margin-left: 0%;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+/*fuentes*/
+@font-face {
+font-family: marquinho1;
+src: url(../fonts/marquinho1.ttf);
+}
+@font-face {
+font-family: marquinho2;
+src: url(../fonts/marquinho2.ttf);
+}
+@font-face {
+font-family: marquinho3;
+src: url(../fonts/marquinho3.ttf);
+}
+@font-face {
+font-family: marquinho4;
+src: url(../fonts/marquinho4.ttf);
+}
+@font-face {
+font-family: marquinho5;
+src: url(../fonts/marquinho5.ttf);
+}

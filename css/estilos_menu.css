@@ -1,0 +1,110 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+section {
+	padding:20px;
+}
+.menu_bar {
+	display:none;
+    z-index: 3000;
+}
+header {
+	width: 100%;
+}
+header nav {
+	z-index:2000;
+	max-width: 1000px;
+	width: 93%;
+	margin:5px auto;
+    background:rgba(0,0,0,.9);
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li {
+	position: relative;
+    float: right;   
+    display: block;
+}
+header nav ul li a:hover{
+    background:rgba(2,101,104,.9);
+    border-radius: 20px;
+    color:yellow;
+}
+header nav ul li a {
+	display:block;
+    text-decoration: none;
+    padding: 20px 40px;
+    color:rgba(113,245,180,.9);
+    font-family: marquinho1;
+    font: bold;
+}
+@media screen and (max-width:800px) {
+	body {
+		padding-top:50px;
+	}
+	.menu_bar {
+		width: 100%;
+        height: 50px;
+        background:rgb(0,0,0);
+		display: block;
+		position: fixed;
+		top:0;
+	}
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 15px;
+		color:#fff;
+		overflow: hidden;
+		font-size:15px;
+		font-weight:bold;
+		text-decoration: none;
+        font-family: marquinho1;
+	}
+	.menu_bar span {
+		float: right;
+		font-size: 20px;
+	}
+	header nav {
+		width: 50%;
+		height:100%;
+		right:100%; 
+		/*Con esto ocultamos el menu hacia la derecha, lo agregamos hasta el final*/
+		margin: 0;
+		position:fixed;
+		overflow:scroll;
+        top: 50px;
+	}
+	header nav ul li a {
+        display: block;
+        background: rgb(0,0,0);
+	}
+    header nav ul li {
+	    position: relative;
+        float: left;   
+        display: block;
+        border-bottom: 1px solid  rgba(225,225,225,.7);
+        width: 100%;
+        background: black;
+        border-radius: 0px;
+        left: 0;
+}
+    header nav ul li a:hover{
+        border-radius: 0px;
+        display: block;
+        left: 0;
+        background: rgba(9,58,64,.5)
+    }
+    #particles-js {
+	background:rgba(0,0,0,.2);
+}
+    .social{
+    top: 420px;
+}
+ }
+    
